@@ -1,0 +1,56 @@
+/*------------
+Header styles
+-------------*/
+header{
+  display: flex;
+  padding: 15px;
+  border-top: 10px solid #631f8b;
+  border-right: 10px solid #631f8b;
+  border-style: groove;
+}
+.topic{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 5%;
+  color: #631f8b;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*------------------
+Main section styles
+--------------------*/
+.main-section{
+  background-image: url(pattern.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72vh;
+  font-size: 20px;
+}
+.info{
+
+}
+
+/*Footer styles*/
+footer{
+  background-color: #22192E;
+  flex: 0 0 auto;
+}
+.team{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+.name{
+  margin: 10px;
+  text-decoration: none;
+  color: #eee;
+  font-size: 16px;
+  transition: 0.7s;
+}
+.name:hover{
+  color: #85D831;
+  transition: 0.7s;
+}
